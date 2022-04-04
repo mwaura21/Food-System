@@ -1,0 +1,67 @@
+/*This first section affects all pages*/
+body html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100%;
+    display: none;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+.container-fluid
+{
+    padding: 0!important;
+}
+.navbar
+{
+    background-color: black!important;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-nav
+{
+    align-content: center;
+}
+.navbar-brand
+{
+    font-size: 30px!important;
+}
+.navbar-brand span
+{
+    color: #ffdb58;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav-link
+{
+    color: #ffdb58!important;
+}
+.dropdown a
+{
+    color: white!important;
+}
+.dropdown-menu a{
+    color: black!important;
+}
+/*end*/
+
+/*admin.html*/
+.admin-container .btn{
+    background-color: black;
+    width: 90%;
+    height: 30vh;
+    margin: 5vh 3vw;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-container .btn span{
+    padding-left: 15vw;
+}
+/*end*/
+
